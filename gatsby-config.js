@@ -6,9 +6,9 @@ module.exports = ({
   noteTemplate = path.join(__dirname, 'src/templates/note.js'),
   additionalNoteTypes = {},
   rootPath = '/',
-  rootNote = 'about',
+  rootNote = 'hello',
   linkifyHashtags = false,
-  hideDoubleBrackets = true,
+  hideDoubleBrackets = false,
   mdxOtherwiseConfigured = false,
   themeUIOtherwiseConfigured = false,
   generateRSS = false,
@@ -16,7 +16,7 @@ module.exports = ({
   rssTitle = 'My Notes',
 }) => ({
   siteMetadata: {
-    title: 'My Notes',
+    title: 'Clesstial Entity',
   },
   plugins: [
     {
